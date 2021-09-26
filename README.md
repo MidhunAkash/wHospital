@@ -17,7 +17,7 @@ This application was built using the `flutter` framework. All the APIs which are
 ## Devloper
 - Name: Malli Midhun Akash
 - Registration no: 19BCN7108
-- Collage: VIT-AP
+- Email-id: akash.19bcn7108@vitap.ac.in
 
 ## Screenshots
 
