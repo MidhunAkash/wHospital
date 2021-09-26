@@ -21,4 +21,21 @@ This application was built using the `flutter` framework. All the APIs which are
 
 ## Screenshots
 
+### Home Page
+![Home Page](https://github.com/MIDHUN950/Inno-App/blob/main/Screenshots/home.png?raw=true)
 
+### Login Pages
+
+![Login Pages](https://github.com/MIDHUN950/Inno-App/blob/main/Screenshots/Logins.png?raw=true)
+
+### Main Pages
+
+![Main Pages](https://github.com/MIDHUN950/Inno-App/blob/main/Screenshots/main.png?raw=true)
+
+### Create Page
+
+![Create Page](https://github.com/MIDHUN950/Inno-App/blob/main/Screenshots/create.png?raw=true)
+
+### Commonly used pages
+
+![Commonly used pages](https://github.com/MIDHUN950/Inno-App/blob/main/Screenshots/common.png?raw=true)
