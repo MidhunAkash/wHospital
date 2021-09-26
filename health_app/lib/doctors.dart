@@ -38,7 +38,7 @@ class _DoctorsState extends State<Doctors> {
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 0, 20, 25),
       child: Container(
-        height: 85,
+        height: 90,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.all(Radius.circular(10.0)),

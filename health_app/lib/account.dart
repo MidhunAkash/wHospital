@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
+import 'package:health_app/doctors.dart';
 import 'package:health_app/password.dart';
 import 'package:health_app/transac.dart';
 import 'package:health_app/validation.dart';
@@ -781,6 +782,121 @@ class _AccountState extends State<Account> {
                   ),
                   const SizedBox(
                     height: 20,
+                  ),
+                  Text("Upcoming meets",
+                      style: TextStyle(
+                          fontSize: 19,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.grey.shade900
+                      )
+                  ),
+                  const SizedBox(
+                    height: 15,
+                  ),
+                  const Center(
+                    child: Text("No upcoming meets",
+                        style: TextStyle(
+                            fontSize: 19,
+                            fontWeight: FontWeight.w400,
+                            color: Colors.grey
+                        )
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Text("Scheduled Requests",
+                      style: TextStyle(
+                          fontSize: 19,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.grey.shade900
+                      )
+                  ),
+                  const SizedBox(
+                    height: 15,
+                  ),
+                  const Center(
+                    child: Text("No scheduled requests",
+                        style: TextStyle(
+                            fontSize: 19,
+                            fontWeight: FontWeight.w400,
+                            color: Colors.grey
+                        )
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Schedule",
+                          style: TextStyle(
+                              fontSize: 19,
+                              fontWeight: FontWeight.w400,
+                              color: Colors.grey.shade900
+                          )
+                      ),
+                      TextButton(onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => const Doctors()));
+                      }, child: Text("see all",
+                        style: TextStyle(
+                          fontSize: 15
+                        )
+                      ))
+                    ],
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: const BorderRadius.only(
+                          topRight: Radius.circular(10.0),
+                          topLeft: Radius.circular(10.0),
+                          bottomLeft: Radius.circular(10.0),
+                          bottomRight: Radius.circular(10.0),
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                              color: Colors.black,
+                              offset: Offset(0,0),
+                              blurRadius: 3.0)
+                        ],),
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(10, 10, 20, 10),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Row(
+                            children: const [
+                              CircleAvatar(
+                                backgroundColor: Colors.blue,
+                                radius: 20,
+                                child: CircleAvatar(
+                                  radius: 15,
+                                  child: const CircleAvatar(
+                                    backgroundImage: AssetImage(
+                                        "assets/mdoctor.png"),
+                                    radius: 15,
+                                  ),
+                                ),
+                              ),
+                              Text(
+                                " Dr.Malli",
+                                style: TextStyle(
+
+                                  fontSize: 26,
+                                  fontWeight: FontWeight.normal,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Icon(Icons.star_border_outlined,
+                            size: 35,
+                            color: Colors.grey,
+                          )
+                        ],
+                      ),
+                    ),
                   ),
                 ],
               ),

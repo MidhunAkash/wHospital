@@ -406,6 +406,7 @@ class _ValidState extends State<Valid> {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => Pasword()));
               }
               else{
+                Stat.page="";
                 print(Stat.page);
                 if(Stat.mpage.compareTo("Doctor")==0){
                   rigEmail(Stat.login[Stat.usd][3]);
@@ -475,7 +476,7 @@ class _ValidState extends State<Valid> {
               children: [
                 SizedBox(height: 15,),
                 Container(
-                  height: 135,
+                  height: 145,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(10.0)),

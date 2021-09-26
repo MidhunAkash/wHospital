@@ -317,6 +317,7 @@ class _CreateState extends State<Create> {
     return true;
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -330,7 +331,7 @@ class _CreateState extends State<Create> {
               bottomRight:  Radius.circular(60.0),
             ),
           ),
-          title: Text("Send prescription",
+          title: Text("Create account",
             style: TextStyle(
               fontSize: 25,
             ),
@@ -414,7 +415,6 @@ class _CreateState extends State<Create> {
                   child: TextField(
                     keyboardType: TextInputType.emailAddress,
                     controller: emailid,
-                    textCapitalization: TextCapitalization.characters,
                     inputFormatters: [
                       LengthLimitingTextInputFormatter(45),
                     ],
@@ -509,7 +509,7 @@ class _CreateState extends State<Create> {
               SizedBox(
                 height: 5,
               ),
-              Text(" Aleast 1 speacial characters",
+              Text(" Aleast 1 special characters",
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.grey,
@@ -622,7 +622,7 @@ class _CreateState extends State<Create> {
                       child: Container(
                         alignment: Alignment.center,
                         width: 110,
-                        child: Text('Send',
+                        child: Text('Create',
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 24

@@ -28,7 +28,7 @@ class _TransactionState extends State<Transaction> {
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 0, 20, 25),
       child: Container(
-        height: 270,
+        height: 280,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.all(Radius.circular(10.0)),
@@ -119,9 +119,9 @@ class _TransactionState extends State<Transaction> {
               bottomRight: Radius.circular(70.0),
             ),
           ),
-          title: Text('Medical Report History',
+          title: Text('Prescription History',
             style: TextStyle(
-                fontSize: 25
+                fontSize: 20
             ),
           ),
           backgroundColor: Colors.purple,
