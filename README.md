@@ -14,7 +14,7 @@ Language: `dart`
 
 This application was built using the `flutter` framework. All the APIs which are used in the app are made from PHP language using a public-domain-server to communicate with the application as a backend and all data was managed by PHPMyAdmin database.
 
-## Devloper
+## Developer Details
 - Name: Malli Midhun Akash
 - Registration no: 19BCN7108
 - Email-id: akash.19bcn7108@vitap.ac.in
